@@ -9,6 +9,8 @@ REPO_DIR = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
 # Path to folder where data is stored
 DATA_DIR = os.path.join(REPO_DIR, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
+ZINDI_DATA_DIR = os.path.join(DATA_DIR, "zindi")
+os.makedirs(ZINDI_DATA_DIR, exist_ok=True)
 
 # Path to folder where data is stored
 OUTPUT_DIR = os.path.join(REPO_DIR, "output")
