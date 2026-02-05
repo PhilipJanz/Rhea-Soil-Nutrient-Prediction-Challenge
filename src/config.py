@@ -15,3 +15,6 @@ os.makedirs(ZINDI_DATA_DIR, exist_ok=True)
 # Path to folder where data is stored
 OUTPUT_DIR = os.path.join(REPO_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Target soil nutrients
+TARGETS = ["Al", "B", "Ca", "Cu", "Fe", "K", "Mg", "Mn", "N", "Na", "P", "S", "Zn"]
