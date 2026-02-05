@@ -1,0 +1,17 @@
+data/zindi/*
+output
+
+__pycache__
+*.cpg
+*.csv
+*.dbf
+*.html
+*.nc4
+*.shp
+*.shx
+*.txt
+*.xml
+*.zip
+*.pkl
+*.lock
+.idea
